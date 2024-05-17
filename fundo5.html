@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
 </head>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover; */
+
+            /* Shorthand - Background 
+                color > image > position > repeat > (size) > attachment
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -27,7 +33,7 @@
 <body>
     <main>
         <h1>Teste de imagens de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci omnis vero aspernatur, illo consequuntur impedit repellat consectetur hic molestiae, modi eum saepe odio animi magnam, blanditiis dolor magni dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, ratione, in libero quaerat autem enim expedita cumque quas inventore nostrum et sequi illum quibusdam numquam natus qui culpa quis? Eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vero soluta. Blanditiis, voluptatibus sequi, facilis nostrum corrupti aliquid illum dolor exercitationem nobis vero ipsum? Quos nostrum ducimus neque esse architecto.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci omnis vero aspernatur, illo consequuntur impedit repellat consectetur hic molestiae, modi eum saepe odio animi magnam, blanditiis dolor magni dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, ratione, in libero quaerat autem enim expedita cumque quas inventore nostrum et sequi illum quibusdam numquam natus qui culpa quis? Eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vero soluta. Blanditiis, voluptatibus sequi, facilis nostrum corrupti aliquid illum dolor exercitationem nobis vero ipsum? Quos nostrum ducimus neque esse architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vel accusamus quia doloribus, perferendis animi culpa! Minus quidem placeat, nemo modi adipisci et delectus a, soluta aut, cupiditate non voluptates? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, ex. In delectus inventore atque necessitatibus? Hic, dolore esse id expedita itaque minima voluptatibus est cumque ipsum aliquid vero tempora? Officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto corrupti alias consequuntur aliquam voluptates, quibusdam consequatur illo molestias labore, nam in ducimus molestiae quam esse tenetur totam temporibus? Recusandae, ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas dignissimos fugiat! Fuga quasi consequuntur quos eligendi veritatis esse impedit itaque ex molestias, natus eaque nisi assumenda? Consequuntur, enim ipsa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente saepe nobis iure numquam ipsam fugiat officia ratione distinctio, doloremque, nesciunt molestias suscipit tenetur repudiandae ea optio eligendi possimus alias quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quos quo explicabo perferendis unde. Atque aspernatur tenetur nihil quaerat deleniti numquam saepe blanditiis ullam rerum cum, delectus alias ipsa magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores reiciendis itaque vitae? Eos nam fugit dolorem minus. Ducimus accusamus ab magni sit. Distinctio, sunt quia unde sed id quo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, pariatur reiciendis eos quas culpa voluptatem ipsa autem incidunt optio rem doloremque, atque nobis perspiciatis consequatur adipisci blanditiis voluptate accusantium beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto error a porro totam eligendi. Tenetur ex, laudantium voluptas illo quidem eius tempora, est sit minima, atque commodi explicabo dignissimos quam.</p>
     </main>
 </body>
 </html>
